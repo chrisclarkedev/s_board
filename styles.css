@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  /* background-image: url(./images/character_select.png); */
+  background-size: cover;
+  background-repeat: none;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  background-image: url(./images/character_select.png);
+}
+.btn {
+  /* color: transparent; */
+  /* background-color: transparent; */
+  /* border-radius: 100%; */
+  /* visibility: hidden; */
+  cursor: pointer;
+}
