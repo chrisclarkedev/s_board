@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
-  /* background-image: url(./images/character_select.png); */
   background-size: cover;
   background-repeat: none;
+  /* background-image: url(./images/character_select.png); */
 }
 
 body {
+  background-color: #637e6c;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -14,7 +15,7 @@ body {
   text-align: center;
   overflow: hidden;
   margin: 0;
-  background-image: url(./images/character_select.png);
+  /* background-image: url(./images/character_select.png); */
 }
 .btn {
   /* color: transparent; */
@@ -22,4 +23,12 @@ body {
   /* border-radius: 100%; */
   /* visibility: hidden; */
   cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.3rem;
+  font-weight: inherit;
+  font-family: bold;
+  transition: all 0.2s ease-in-out;
 }
