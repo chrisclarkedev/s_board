@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #7e89a6;
+  background-color: #5079eb;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -32,7 +32,7 @@ body {
   font-family: bold;
   transition: all 0.2s ease-in-out;
   background-color: #a4ccf0;
-  color: rgb(53, 52, 52);
+  color: rgb(14, 12, 12);
 }
 
 .btn:focus {
